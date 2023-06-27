@@ -1,8 +1,4 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
+
 
 header {
     padding: 20px;
@@ -40,16 +36,31 @@ a {
 .section {
     display: flex;
     flex-direction: row;
+    
 }
 
 .section-title {
-
+    color: rgb(93, 93, 150);
+    border-right: 4px solid rgb(93, 93, 150);
+    font-size: 30px;
+    margin-left: 200px;
 }
 
 .section-content {
-
+    margin-left: 600px;
 }
 
+.section-content .primary-work img {
+    width: 800px;
+    height: 500px
+}
+
+
+
+.section-content .secondary-work img {
+    width: 400px;
+    height: 200px;
+}
 
 
 
